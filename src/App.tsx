@@ -70,6 +70,7 @@ class App extends React.Component <{/* where props would go */}, IAppState> {
     const { cats } = this.state;
     return (
       <div className="App">
+        <h1>Up For Adoption</h1>
         <CatsContainer arrayOfCats={cats} />
     </div>
   );

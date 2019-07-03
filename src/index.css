@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
 body{
   margin: 0;
   background: #223843;
+  font-family: 'Roboto', sans-serif;
+  color: #262626;
 }
+h1 {
+  color: #eff1f3;
+}
+
 .cats {
   display: flex;
   flex-wrap: wrap;
